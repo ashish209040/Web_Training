@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        body{
+            
+            margin: 5px;
+            padding: auto;
+            background-color: rgb(198, 211, 255);
+        }
+        span{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        .input_box{
+            width: 20%;
+            text-align: center;
+            height: 30px;
+            border-radius: 5px;
+            background-color: rgb(53, 35, 35);
+            color: white;
+            
+        }
+        ::placeholder{
+            color: white;
+        }
+        
+        .input_box:hover{
+            background-color: rgba(0, 0, 0, 0.137);
+            color: Black
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        button:hover{
+            border-radius: 5px;
+            background-color: #000;
+            color: antiquewhite;
+            border-radius: 5PX;
+            box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+        }
+    </style>
+</head>
+<body>
+    <form action="" >
+        <h1>Contact Form</h1>
+        <label  for=""><span>Name: </span><input type="text" value="" placeholder="Full Name" class="input_box" required  class=""><br></label>
+        <br>
+        <label for="" ><span>Email: </span></label><input type="email" class="input_box" placeholder="Email I'D" required><br><br>
+        <label for="" ><Span>Contact: </Span></label><input type="tel" class="input_box" placeholder="XXXXXXXXXX" required><br><br>
+        
+        <fieldset>
+        <legend> Gender</legend>
+        <input type="radio" placeholder="" name="Gender" value="M" required>Male<br>
+        <input type="radio" name="Gender" id="" value="F" required>Female <br>
+        </legend>
+        </fieldset> <br>
+        
+        <fieldset>
+            <legend>Language</legend>
+            <input type="checkbox" name="Language" id="" value="Html" required><span> Html</span>  <br>
+            <input type="checkbox" name="Language" id=""><span>Java</span></input><br>
+            <input type="checkbox" name="Language" id=""><span>C++</span></input><br>
+            <input type="checkbox" name="Language" id=""><span>Python</span></input> <br><br>
+        </fieldset><br>
+        <select name=""  id="" required>
+            <option value=""></option>
+            <option value="">One</option>
+            <option value="">Two</option>
+            <option value="">Three</option>
+            <option value="">Four</option>
+            <option value="">Five</option>
+        </select><br><br>
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
